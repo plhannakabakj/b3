@@ -1,4 +1,4 @@
-# script by @WynkMusicRobot
+# script by @NoxxNetwork
 
 import telebot
 import subprocess
@@ -141,7 +141,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @WynkMusicRobot."
+        response = "You have not purchased yet purchase now from:- @NoxxNetwork."
 
     bot.reply_to(message, response)
 
@@ -176,7 +176,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @WynkMusicRobot 🙇."
+        response = "You have not purchased yet purchase now from:- @NoxxNetwork 🙇."
 
     bot.reply_to(message, response)
 
@@ -196,7 +196,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @WynkMusicRobot ❄."
+        response = "You have not purchased yet purchase now from :- @NoxxNetwork ❄."
     bot.reply_to(message, response)
 
 # Command handler to clear users
@@ -215,7 +215,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @WynkMusicRobot 🙇."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @NoxxNetwork 🙇."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['allusers'])
@@ -239,7 +239,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @WynkMusicRobot ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @NoxxNetwork ❄."
     bot.reply_to(message, response)
 
 # Command handler to show recent logs
@@ -258,7 +258,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @WynkMusicRobot ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @NoxxNetwork ❄."
         bot.reply_to(message, response)
 
 # New function to periodically send the "Bot is active" message every 10 minutes
@@ -266,9 +266,9 @@ def send_periodic_message():
     while True:
         for user_id in allowed_user_ids:
             try:
-                bot.send_message(user_id, '''ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ʙᴀʙᴜ ❤️
+                bot.send_message(user_id, '''ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ʙᴀʙᴜ 🖤
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥@WynkMusicRobot⏤͟͟͞͞★🕊️''')
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥@NoxxNetwork⏤͟͟͞͞★🕊️''')
             except Exception as e:
                 print(f"Failed to send message to {user_id}: {e}")
         time.sleep(600)  # Wait 10 minutes before sending the message again
@@ -281,7 +281,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃💛🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @WynkMusicRobot✅"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃💛🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @NoxxNetwork✅"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi3 command
@@ -317,7 +317,7 @@ def run_attack_and_notify(message, user_id, target, port, time):
         markup = InlineKeyboardMarkup()
         button = InlineKeyboardButton(
             "🫧 ᴍᴜsᴛ ᴄʜᴇᴄᴋᴏᴜᴛ ᴛʜɪs 🫧", 
-            url="https://t.me/WynkMusicRobot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"
+            url="https://t.me/NoxxNetwork?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"
         )
         markup.add(button)
         
@@ -361,7 +361,7 @@ def handle_bgmi3(message):
                     f"𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n"
                     f"𝐏𝐨𝐫𝐭: {port}\n"
                     f"𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n"
-                    f"𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @WynkMusicRobot."
+                    f"𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @NoxxNetwork."
                 )
                 bot.reply_to(message, attack_start_message)  # Send the attack initiation message
                 
@@ -371,7 +371,7 @@ def handle_bgmi3(message):
         else:
             response = "✅ Usage :- /bgmi3 <target> <port> <time>"  # Updated command syntax
     else:
-        response = "🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi3 command. DM TO BUY ACCESS:- @WynkMusicRobot"
+        response = "🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi3 command. DM TO BUY ACCESS:- @NoxxNetwork"
 
     bot.reply_to(message, response)
 
@@ -406,7 +406,7 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @WynkMusicRobot'''
+Buy From :- @NoxxNetwork'''
     bot.reply_to(message, help_text)
 
 @bot.message_handler(commands=['start'])
@@ -414,7 +414,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @WynkMusicRobot'''
+✅BUY :- @NoxxNetwork'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -487,3 +487,4 @@ while True:
         bot.polling(none_stop=True, timeout=60)
     except Exception as e:
         print(e)
+        

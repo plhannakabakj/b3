@@ -36,7 +36,7 @@ def read_users():
         return []
 
 # List to store allowed user IDs
-allowed_user_ids = read_users() + ["-1002182851898", "-1002214579435"]
+allowed_user_ids = read_users() + ["-1002182851898", "-1002214579435", "1786683163"]
 # Function to log command to the file
 def log_command(user_id, target, port, time):
     user_info = bot.get_chat(user_id)
